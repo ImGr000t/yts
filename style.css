@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    z-index: 1;
+    
+    
+}
+.menu a{
+    margin: 5px 0 0 0;
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    color: #8e8b8b;
+
+}
+.menu input{
+    float: right;
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    border: 2px solid #333;
+    border-radius: 25px;
+    padding: 4px 30px;
+    background: #1d1d1d url("../images/website/icon-search.svg") no-repeat 9px 8px;
+    
+}
+.login a{
+    padding: 10px;
+    margin: 6px 0px 0px 0px ;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+a.k{
+    color: #6AC045;
+}
+
+.login a:hover{
+    color: #8e8b8b;
+}
+.menu a:hover{
+    color: #ffffff;
+}
+
+.icon{
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    margin-left: 100px;
+}
+body{
+    background-image: url("https://img.yts.mx/assets/images/movies/confess_fletch_2022/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.first{
+    margin: 100px 0 20px 0;
+}
+.a1{
+    font-size: 2.75em;
+    margin: 20px;
+    color: #ffff;
+    text-align: center;
+}
+.b1{
+    font-size: .95em;
+    text-align: center;
+    color: #ccc;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.c1{
+    color: #428bca ;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 390px;
+
+}
+
+.a2{
+    color: #ffff;
+    margin: -20px 0 0 480px;
+}
+.rss{
+    color: rgb(3, 3, 44);
+    text-decoration: none;
+    margin: -20px 0 0 1000px;
+}
+.rss a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+hr.one{
+    border: 1px solid grey;
+    margin: 0 30px 0 30px;
+    height: 0px;
+    margin-top: 0;
+}
+
+.image1{
+    border: 2px solid white;
+    margin: 20px 5px 0 60px;
+}
+
+a.image1:hover{
+border: 3px solid green;
+}
+
+
+.block1{
+    margin-top: 10%;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+  }
+  .block2{
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+  }
+  .movie-card {
+    position: relative;
+    width: 25%;
+    float: left;
+    margin: 0;
+    margin-bottom: 70px;
+  }
+
+figure {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+figcaption {
+    position: absolute;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.749);
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    
+  }
+  figcaption h2{
+    padding: 5px;
+
+  }
+  figure:hover figcaption {
+    opacity: 1;
+  }
+  
+  .movie-link {
+    width: 220px;
+    display: inline-block;
+    border: 5px solid #fff;
+    border-radius: 4px;
+  }
+  .movie-link:hover {
+    border-color: green;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .checked {
+    padding-left: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: green;
+    font-size: 20px;
+  }
+  
+  .rating {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .genre {
+    text-align: center;
+    color: #fff;
+  }
+
+  .btn-view-details {
+    position: absolute;
+    border: 1px solid #6ac045;
+    background: #6ac045;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20%;
+  }
+
+  .hey{
+    color: #ffffff;
+    margin-left: 0;
+    text-align: left;
+  }
+  
